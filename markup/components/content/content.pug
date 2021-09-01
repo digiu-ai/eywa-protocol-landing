@@ -1,0 +1,19 @@
+include ../header/header.pug
+include ../welcome/welcome.pug
+include ../basics/basics.pug
+include ../roadmap/roadmap.pug
+include ../team/team.pug
+include ../join/join.pug
+include ../news/news.pug
+include ../partners/partners.pug
+
+mixin content(data)
+    .content
+        +header()
+        +welcome()
+        +basics()
+        +roadmap()
+        +team()
+        +join()
+        +news()
+        +partners()

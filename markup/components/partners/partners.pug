@@ -1,0 +1,6 @@
+mixin partners(data)
+    .partners
+        .partners__title PARTNERS
+        .partners__items
+            each val in partners.list
+                img(src=val.src alt=val.alt).partners__item

@@ -1,0 +1,10 @@
+mixin basics(data)
+    .basics
+        .basics__title Liquidity Freedom 
+            span with EYWA
+        .basics__subtitle EYWA is a cross-chain AMM DEX and blockchain agnostic Data Protocol implementing philosophy of decentralization and equal opportunities to all.
+        .basics__list 
+            each val in basics.list
+                .basics__item 
+                    img(src=val.icon)
+                    .basics__item-text #{val.label}

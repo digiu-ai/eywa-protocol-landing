@@ -1,0 +1,15 @@
+include ../socials/socials.pug
+include ../button/button.pug
+mixin join(data)
+    .join
+        .join__title Join EYWA
+        .join__content 
+            .join__section.section
+                .section__title Community
+                .section__text Learn more about EYWA, chat with the team, and be the part of our growing community.
+                +socials(socials.defaultList)
+            .join__section.section._with-logo
+                .section__title EYWA alpha testing challenge
+                .section__text Take part in EYWA alpha testing, complete simple tasks, earn pionts and get a chance to get unique NFTs
+                +button(join.joinButton)
+

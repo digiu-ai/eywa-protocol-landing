@@ -1,0 +1,15 @@
+include ../socials/socials.pug
+include ../mobile-menu/mobile-menu.pug
+mixin menu(data)
+    .menu
+        .menu__items
+            each val in data
+                a(href=val.href target='_blank').menu__item #{val.label}
+        .menu__socials
+            +socials(socials.headerList)
+        .menu__socials._short
+            +socials(socials.headerShortList)
+        .menu__mobile#mobile-menu-button
+            img(src='%=static=%img/assets/menu/menu.svg')
+        .menu__mobile-menu#mobile-menu
+            +mobile-menu(menu.links)

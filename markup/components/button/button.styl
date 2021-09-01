@@ -1,0 +1,30 @@
+.button
+  font-family Rubik
+  font-style normal
+  font-weight bold
+  font-size 14px
+  line-height 20px
+  height: 48px
+  padding 0 32px
+  text-transform uppercase
+  letter-spacing 1px
+  box-sizing border-box
+  &.default
+    box-shadow -11.09px 18.13px 36.6483px rgba(62, 188, 158, 0.4)
+    background #3BC199
+  &.secondary
+    border 1px solid #FFFFFF
+    background transparent
+
+@media screen and (max-width: $desktop1)
+  .button
+    font-size 12px
+    line-height 20px
+    padding 0 28px
+
+@media screen and (max-width: $desktop2)
+  .button
+    padding 0 14px
+    font-size 10px
+    line-height 20px
+    height 40px

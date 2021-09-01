@@ -1,0 +1,11 @@
+mixin news(data)
+    .news
+        .news__title News
+        .news__content
+            each val in news.list
+                .news__item
+                    img(src=val.img).news__item-img
+                    .news__item-content 
+                        .news__item-content-date #{val.date}
+                        .news__item-content-text #{val.text}
+                        .news__item-content-more Read more

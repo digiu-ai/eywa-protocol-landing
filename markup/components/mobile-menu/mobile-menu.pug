@@ -1,0 +1,16 @@
+include ../socials/socials.pug
+include ../subscribe/subscribe.pug
+mixin mobile-menu(data)
+    .mobile-menu
+        .mobile-menu__header
+            img(src='%=static=%img/general/logo.svg').mobile-menu__logo
+            img(src='%=static=%img/assets/mobile-menu/close.svg').mobile-menu__close#mobile-menu__close-button
+        .mobile-menu__content
+            .mobile-menu__links
+                .mobile-menu__links-nav
+                    each val in data
+                        a(href=val.href target='_blank').mobile-menu__item #{val.label}
+                .mobile-menu__links-nav
+                    +socials(socials.headerList)
+            .mobile-menu__subscribe
+                +subscribe()

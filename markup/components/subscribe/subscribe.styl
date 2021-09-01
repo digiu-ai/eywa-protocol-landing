@@ -1,0 +1,54 @@
+
+.subscribe
+  min-width 450px
+  &__title
+    font-family Rubik
+    font-style normal
+    font-weight 500
+    font-size 16px
+    line-height 32px
+    color #FFFFFF
+    margin-bottom 16px
+  &__form
+    display flex
+  &__input
+    border 1px solid #818EA7
+    box-sizing border-box
+    border-radius 3px
+    padding 14px
+    background #1B1A2F
+    margin-right 16px
+    flex-grow 1
+    z-index 1
+    color #fff
+    &::placeholder
+      font-family Rubik
+      font-style normal
+      font-weight normal
+      font-size 16px
+      line-height 20px
+      color #818EA7
+
+@media screen and (max-width: $desktop2)
+  .subscribe
+    max-width 450px
+    &__input
+      height 40px
+
+@media screen and (max-width: $mobile)
+  .subscribe
+    min-width 0
+    max-width none
+    width 100%
+    &__title
+      font-weight normal
+      font-size 14px
+      line-height 20px
+      margin-bottom 8px
+    &__form
+      flex-direction column
+    &__input
+      margin-right 0
+      margin-bottom 8px
+    &__button
+      height 48px

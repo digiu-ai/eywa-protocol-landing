@@ -1,0 +1,50 @@
+.menu
+  display flex
+  align-items center
+  &__items
+    display flex
+    align-items center
+    justify-content space-between
+    margin-right 48px
+  &__item
+    margin-right 32px
+    font-style normal
+    font-weight 500
+    font-size 12px
+    line-height 20px
+    text-transform uppercase
+    &:last-child
+      margin-right 0
+  &__socials
+    &._short
+      display none
+  &__mobile
+    display none
+  &__socials
+    & > div
+      grid-auto-flow column
+  &__mobile
+    cursor pointer
+    &-menu
+      display none
+      left 0
+      top 0
+      position fixed
+      width 100%
+      height 100vh
+      background rgba(0, 0, 0, 0.7)
+      backdrop-filter blur(6px)
+      &._active
+        display block
+
+@media screen and (max-width: $desktop2)
+  .menu
+    &__items
+      display none
+    &__socials
+      display none
+      &._short
+        display block
+        margin-right 16px
+    &__mobile
+      display block

@@ -1,0 +1,5 @@
+mixin socials(data)
+    .socials
+        each val in data
+            a(href=val.href alt=val.alt).socials__item
+                img(src=val.icon)

@@ -1,0 +1,10 @@
+mixin team(data)
+    .team
+        .team__title Team
+        .team__list
+            each val in team.teamList
+                .team__item
+                    img(src=val.img).team__item-img
+                    .team__item-title #{val.title}
+                    .team__item-subtitle #{val.subtitle}
+                    a(href=val.linkedinLink).team__link Linkedin
