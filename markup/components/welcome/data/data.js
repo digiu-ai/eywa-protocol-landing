@@ -1,7 +1,7 @@
 var data = {welcome: {
   mainButton: {
     class: 'welcome__button',
-    title: 'JOIN ALPHA TESTING',
+    title: 'JOIN DEVELOPERS COMMUNITY',
     type: 'default'
   },
   secondaryButton: {

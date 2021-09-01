@@ -1,19 +1,21 @@
 .welcome
-  margin 160px auto
+  margin 0 auto
+  padding-top 160px
   display flex
   flex-direction column
   align-items center
+  height calc(100vh - 114px - 160px)
   &__title
     font-weight bold
     font-size 88px
     line-height 72px
-
+    color #3BC199
     margin-bottom 24px
   &__subtitle
     font-size 32px
     line-height 48px
     letter-spacing 1px
-    margin-bottom 56px
+    margin-bottom 100px
     & > span
       color #3BC199
   &__video
@@ -26,7 +28,7 @@
     margin-bottom 56px
   &__buttons
     display flex
-    width: 580px
+    width: 620px
   &__button
     margin-right 18px
     flex 1 0

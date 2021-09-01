@@ -9,11 +9,13 @@ include ../partners/partners.pug
 
 mixin content(data)
     .content
-        +header()
-        +welcome()
-        +basics()
+        .content__main
+            +header()
+            +welcome()
+        .content__colored-bg
+            +basics()
+            //- +team()
+            +join()
+            +news()
+            +partners()
         +roadmap()
-        +team()
-        +join()
-        +news()
-        +partners()
