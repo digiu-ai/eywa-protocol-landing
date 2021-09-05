@@ -2,7 +2,7 @@
   display flex
   align-items center
   flex-direction column
-  margin-bottom 100px
+  margin-bottom 160px
   &__title
     font-weight bold
     font-size 56px
@@ -13,7 +13,7 @@
     display flex
   &__section.section
     margin-right 32px
-    max-width 640px
+    max-width 560px
     &._with-logo
       background-image url('%=static=%general/just-logo.svg')
       background-repeat no-repeat
@@ -33,21 +33,23 @@
     font-size 24px
     line-height 34px
     margin-bottom 24px
-    color #373747
+    color $text-black
   &__text
     font-weight normal
     font-size 16px
     line-height 24px
-    color #373747
+    color $text-black
+    letter-spacing 0.01em
     margin-bottom 24px
 
 @media screen and (max-width: $desktop1)
   .join
+    margin-bottom 108px
     &__title
       font-size 40px
       line-height 62px
     &__section.section
-      max-width 476px
+      max-width 480px
       &._with-logo
         background-size 65px 72px
   .section
@@ -61,7 +63,6 @@
 
 @media screen and (max-width: $desktop2)
   .join
-    margin-bottom 80px
     &__title
       font-size 28px
       line-height 32px
@@ -110,3 +111,5 @@
   .section
     &__text
       margin-bottom 16px
+    &__text
+      margin-bottom 64px

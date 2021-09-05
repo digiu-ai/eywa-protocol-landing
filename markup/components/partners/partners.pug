@@ -3,4 +3,5 @@ mixin partners(data)
         .partners__title PARTNERS
         .partners__items
             each val in partners.list
-                img(src=val.src alt=val.alt).partners__item
+                .partners__item
+                    img(src=val.src alt=val.alt).partners__item-icon
