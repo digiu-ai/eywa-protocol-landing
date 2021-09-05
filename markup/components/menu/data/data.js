@@ -5,21 +5,12 @@ var data = {menu: {
       href: '#about',
     },
     {
-      label: 'Data protocol',
-      href: '',
-      isExternal: true,
-    },
-    {
-      label: 'News',
-      href: '#news',
-    },
-    {
       label: 'Community',
       href: '#community',
     },
     {
-      label: 'Team',
-      href: '#team',
+      label: 'News',
+      href: '#news',
     },
     {
       label: 'Roadmap',

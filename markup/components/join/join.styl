@@ -4,9 +4,7 @@
   flex-direction column
   margin-bottom 160px
   &__title
-    font-weight bold
-    font-size 56px
-    line-height 62px
+    main-title()
     margin-bottom 80px
     color $main-green
   &__content
@@ -29,9 +27,6 @@
   padding 40px
   border 1px solid #E9EFF6
   &__title
-    font-weight 500
-    font-size 24px
-    line-height 34px
     margin-bottom 24px
     color $text-black
   &__text
@@ -45,9 +40,6 @@
 @media screen and (max-width: $desktop1)
   .join
     margin-bottom 108px
-    &__title
-      font-size 40px
-      line-height 62px
     &__section.section
       max-width 480px
       &._with-logo
@@ -63,10 +55,6 @@
 
 @media screen and (max-width: $desktop2)
   .join
-    &__title
-      font-size 28px
-      line-height 32px
-      margin-bottom 56px
     &__section.section
       max-width 232px
       height 240px
@@ -93,11 +81,6 @@
   .join
     margin-bottom 80px
     padding 0 16px
-    &__title
-      font-size 24px
-      line-height 20px
-      margin-bottom 32px
-      font-weight 500
     &__content
       flex-direction column
     &__section.section

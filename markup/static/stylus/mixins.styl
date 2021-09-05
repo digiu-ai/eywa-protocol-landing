@@ -25,3 +25,28 @@ m-blocks-justify()
 
 
 // You can add your own mixins here:
+
+main-title()
+    font-weight 500
+    font-size 48px
+    line-height 64px
+    color $main-green
+    margin-bottom 80px
+    @media screen and (max-width: $desktop1)
+        font-size 40px
+        line-height 62px
+        margin-bottom 64px
+    @media screen and (max-width: $desktop2)
+        font-size 28px
+        line-height 32px
+    @media screen and (max-width: $mobile)
+        font-size 20px
+        line-height 20px
+        margin-bottom 56px
+
+secondary-title()
+    font-weight 500
+    font-size 16px
+    line-height 20px
+    color $text-black
+    text-transform uppercase
