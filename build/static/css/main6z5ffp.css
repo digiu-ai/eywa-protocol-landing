@@ -213,11 +213,11 @@ body {
 .button.default {
   -webkit-box-shadow: -11.09px 18.13px 36.6483px rgba(62,188,158,0.4);
           box-shadow: -11.09px 18.13px 36.6483px rgba(62,188,158,0.4);
-  background: #3bc199;
+  background: #0ccfac;
 }
 .button.secondary {
-  border: 1px solid #3bc199;
-  color: #3bc199;
+  border: 1px solid #0ccfac;
+  color: #0ccfac;
   background: #fff;
 }
 @media screen and (max-width: 1760px) {
@@ -254,10 +254,10 @@ body {
   font-size: 56px;
   line-height: 64px;
   margin-bottom: 56px;
-  color: #3bc199;
+  color: #0ccfac;
 }
 .basics__title > span {
-  color: #3bc199;
+  color: #0ccfac;
 }
 .basics__subtitle {
   font-weight: 500;
@@ -287,7 +287,7 @@ body {
   font-weight: 500;
   font-size: 24px;
   line-height: 34px;
-  color: #373d47;
+  color: #373747;
 }
 @media screen and (max-width: 1760px) {
   .basics {
@@ -511,7 +511,7 @@ body {
   font-size: 56px;
   line-height: 62px;
   margin-bottom: 80px;
-  color: #3bc199;
+  color: #0ccfac;
 }
 .join__content {
   display: -webkit-box;
@@ -544,13 +544,13 @@ body {
   font-size: 24px;
   line-height: 34px;
   margin-bottom: 24px;
-  color: #373d47;
+  color: #373747;
 }
 .section__text {
   font-weight: normal;
   font-size: 16px;
   line-height: 24px;
-  color: #373d47;
+  color: #373747;
   margin-bottom: 24px;
 }
 @media screen and (max-width: 1760px) {
@@ -839,7 +839,7 @@ body {
   line-height: 62px;
   letter-spacing: 1px;
   margin-bottom: 80px;
-  color: #3bc199;
+  color: #0ccfac;
 }
 .news__content {
   display: -webkit-box;
@@ -874,14 +874,14 @@ body {
   font-weight: 500;
   font-size: 24px;
   line-height: 34px;
-  color: #373d47;
+  color: #373747;
   margin-bottom: 16px;
 }
 .news__item-content-more {
   font-weight: 500;
   font-size: 16px;
   line-height: 30px;
-  color: #3bc199;
+  color: #0ccfac;
   cursor: pointer;
 }
 @media screen and (max-width: 1760px) {
@@ -1003,7 +1003,7 @@ body {
   font-size: 56px;
   line-height: 62px;
   letter-spacing: 1px;
-  color: #3bc199;
+  color: #0ccfac;
 }
 .roadmap__content-inner {
   position: relative;
@@ -1022,7 +1022,7 @@ body {
   font-weight: 500;
   font-size: 24px;
   line-height: 28px;
-  color: #3bc199;
+  color: #0ccfac;
   margin-bottom: 16px;
 }
 .roadmap__items {
@@ -1056,7 +1056,7 @@ body {
 .roadmap__horizontal-line {
   height: 2px;
   width: calc(100% + 70px);
-  background-color: #3bc199;
+  background-color: #0ccfac;
   position: absolute;
   top: 90px;
 }
@@ -1067,7 +1067,7 @@ body {
   width: 2px;
   left: 15px;
   top: 90px;
-  background-color: #3bc199;
+  background-color: #0ccfac;
   position: absolute;
 }
 .roadmap__vertical-line._mobile {
@@ -1348,7 +1348,7 @@ body {
   font-weight: normal;
   font-size: 16px;
   line-height: 24px;
-  color: #3bc199;
+  color: #0ccfac;
 }
 @media screen and (max-width: 1760px) {
   .team {
@@ -1432,7 +1432,7 @@ body {
   font-weight: bold;
   font-size: 88px;
   line-height: 72px;
-  color: #3bc199;
+  color: #0ccfac;
   margin-bottom: 24px;
 }
 .welcome__subtitle {
@@ -1442,7 +1442,7 @@ body {
   margin-bottom: 100px;
 }
 .welcome__subtitle > span {
-  color: #3bc199;
+  color: #0ccfac;
 }
 .welcome__video {
   margin-bottom: 16px;
