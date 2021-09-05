@@ -10,15 +10,20 @@
   &__items
     display flex
     align-items center
+    width 700px
+    justify-content space-between
   &__item
-    margin-right 50px
-    &:last-child
-      margin-right 0
+    display flex
+    justify-content space-around
+    width 180px
+    &-icon
+      height 42px
 
 @media screen and (max-width: $mobile)
   .partners
     &__items
       flex-direction column
+      width auto
     &__item
       margin-right 0
       margin-bottom 54px

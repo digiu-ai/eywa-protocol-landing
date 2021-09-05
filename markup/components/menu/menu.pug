@@ -4,7 +4,7 @@ mixin menu(data)
     .menu
         .menu__items
             each val in data
-                a(href=val.href target='_blank').menu__item #{val.label}
+                a(href=val.href target=val.isExternal ? '_blank' : '').menu__item #{val.label}
         .menu__socials
             +socials(socials.headerList)
         .menu__socials._short

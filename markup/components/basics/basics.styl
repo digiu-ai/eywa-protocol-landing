@@ -10,7 +10,7 @@
     line-height 64px
     margin-bottom 56px
     & > span
-      color #3BC199
+      color $main-green
   &__subtitle
     font-weight 500
     font-size 24px
@@ -34,12 +34,12 @@
       font-weight 500
       font-size 24px
       line-height 34px
-      color #373D47
+      color $text-black
 
 @media screen and (max-width: $desktop1)
   .basics
     max-width 800px
-    margin-bottom 100px
+    margin-bottom 108px
     &__title
       font-size 40px
       line-height 50px
@@ -70,6 +70,7 @@
     &__subtitle
       font-size 16px
       line-height 24px
+      max-width 544px
     &__list
       grid-template-columns repeat(2, 1fr)
       grid-gap 16px
@@ -98,7 +99,10 @@
     &__subtitle
       font-size 12px
       line-height 20px
+      max-width 290px
     &__list
       grid-template-columns repeat(1, 1fr)
     &__item
       padding 32px 16px
+      width 258px
+      max-width 258px

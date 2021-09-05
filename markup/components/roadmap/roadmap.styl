@@ -1,7 +1,7 @@
 .roadmap
   width calc(100% - 140px)
   padding 0 70px
-  margin-bottom 140px
+  margin-bottom 80px
   &__title
     text-align center
     margin-bottom 160px
@@ -24,7 +24,7 @@
     font-weight 500
     font-size 24px
     line-height 28px
-    color #3BC199
+    color $main-green
     margin-bottom 16px
   &__items
     position relative
@@ -39,35 +39,36 @@
       margin-right 16px
       height 32px
       z-index 1
+      &._unchecked
+        height 24px
+        margin-right 12px
+        margin-left 4px
     &-text
       font-weight 500
       font-size 16px
       line-height 24px
-      &._unchecked
-        color #818EA7
   &__empty
     margin-bottom 40px
-    margin-left: -4px
+    width 32px
   &__horizontal-line
     height: 2px
     width: calc(100% + 70px)
-    background-color #3BC199
+    background-color $main-green
     position absolute
-    top 90px
+    top 86px
     &._second-row
       display: none
   &__vertical-line
     width: 2px
     left 15px
     top: 90px
-    background-color #3BC199
+    background-color $main-green
     position absolute
     &._mobile
       display none
 
 @media screen and (max-width: $desktop1)
   .roadmap
-    margin-bottom 100px
     &__title
       font-size 40px
       line-height 62px
@@ -84,7 +85,7 @@
         display block
         width calc(100% + 140px)
         left -70px
-        top 686px
+        top 673px
     &__item
       height: 80px
       margin-bottom 24px
@@ -98,7 +99,7 @@
       &::-webkit-scrollbar
         height 4px
       &::-webkit-scrollbar-track
-        background #2C5172
+        background $main-green
         border-radius 20px
       &::-webkit-scrollbar-thumb
         background #FFFFFF
@@ -141,4 +142,4 @@
         line-height 20px
     &__horizontal-line
       left 20px
-      top 78px
+      top 72px
