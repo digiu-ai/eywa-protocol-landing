@@ -2,7 +2,7 @@ var data = {partners: {
   list: [
     {
     alt: 'digiu',
-    src: '%=static=%img/assets/partners/digiu.svg'
+    src: '%=static=%img/assets/partners/digiu.png'
     },
     {
     alt: 'rsquad',
@@ -10,7 +10,7 @@ var data = {partners: {
     },
     {
     alt: 'br capital',
-    src: '%=static=%img/assets/partners/br.svg'
+    src: '%=static=%img/assets/partners/br.png'
     },
   ]
 }};
