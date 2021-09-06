@@ -1,5 +1,4 @@
 const header = document.getElementById('header');
-console.log(header);
 const scrolledCheck = () => {
     const scrollY = window.scrollY;
     if (scrollY && !header.className.includes('_scrolled')) {
@@ -10,7 +9,6 @@ const scrolledCheck = () => {
     }
 };
 document.addEventListener('DOMContentLoaded', () => {
-    console.log('kekw');
     scrolledCheck();
 });
 document.onscroll = () => {
