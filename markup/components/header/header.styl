@@ -1,17 +1,29 @@
 .header
   display flex
   justify-content space-between
-  padding 34px 80px
+  padding 0 80px
+  height 114px
   align-items center
+  position fixed
+  width 100%
+  box-sizing border-box
+  top 0
+  transition all .2s
+  &._scrolled
+    background rgba(10, 7, 20, 0.7)
+    backdrop-filter blur(6px)
+    height 70px
 
 @media screen and (max-width: $desktop1)
   .header
-    padding 24px 32px
+    padding 0 32px
+    height 94px
 
 @media screen and (max-width: $desktop2)
   .header
-    padding: 16px 32px
+    padding: 0 32px
+    height 78px
 
 @media screen and (max-width: $mobile)
   .header
-    padding: 16px
+    padding: 0 16px
