@@ -8,7 +8,7 @@ mixin footer(data)
             .footer__logo-sub-text Copyright 2021  EYWA.FI
         .footer__links
             each val in footer.defaultLinkList
-                a.footer__link(href=val.href) #{val.label} 
+                a.footer__link(href=val.href target=val.isExternal ? '_blank' : '') #{val.label} 
         .footer__subscribe
             +subscribe()
             

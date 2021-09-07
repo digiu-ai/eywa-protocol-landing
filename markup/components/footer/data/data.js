@@ -2,39 +2,46 @@ var data = {footer: {
   defaultLinkList: [
     {
       label: 'Home',
-      href: '',
+      href: 'https://alpha.eywa.fi',
+      isExternal: true,
     },
     {
       label: 'EYWA AMM DEX',
-      href: '',
+      href: 'https://alpha.eywa.fi',
+      isExternal: true,
     },
-    {
-      label: 'DigiU Lab',
-      href: '',
-    },
+    // {
+    //   label: 'DigiU Lab',
+    //   href: '',
+    // },
     {
       label: 'White Paper',
       href: '',
     },
     {
       label: 'Docs',
-      href: '',
+      href: 'https://docs.eywa.fi/',
+      isExternal: true,
     },
     {
       label: 'GitHub',
-      href: '',
+      href: 'https://github.com/eywa-protocol',
+      isExternal: true,
     },
     {
       label: 'Twitter',
-      href: '',
+      href: 'https://twitter.com/eywaprotocol',
+      isExternal: true,
     },
     {
       label: 'Telegram',
-      href: '',
+      href: 'https://t.me/eywa_en',
+      isExternal: true,
     },
     {
       label: 'Youtube',
-      href: '',
+      href: 'https://www.youtube.com/channel/UCIbOrJC1owkE2ux1N8EBrmg',
+      isExternal: true,
     },
   ]
 }};
