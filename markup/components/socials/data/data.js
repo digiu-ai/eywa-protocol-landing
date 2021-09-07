@@ -1,63 +1,68 @@
 var data = {socials: {
   defaultList: [
-    {
-      alt: 'facebook',
-      icon: '%=static=%img/assets/socials/facebook.svg',
-      href: '',
-    },
+    // {
+    //   alt: 'facebook',
+    //   icon: '%=static=%img/assets/socials/facebook.svg',
+    //   href: '',
+    // },
     {
       alt: 'github',
       icon: '%=static=%img/assets/socials/github.svg',
-      href: '',
+      href: 'https://github.com/eywa-protocol',
     },
+    // {
+    //   alt: 'linkedin',
+    //   icon: '%=static=%img/assets/socials/linkedin.svg',
+    //   href: '',
+    // },
     {
-      alt: 'linkedin',
-      icon: '%=static=%img/assets/socials/linkedin.svg',
-      href: '',
+      alt: 'discord',
+      icon: '%=static=%img/assets/socials/discord.svg',
+      href: 'https://discord.com/invite/wPqkHWetbc',
     },
     {
       alt: 'medium',
       icon: '%=static=%img/assets/socials/medium.svg',
-      href: '',
+      href: 'https://medium.com/@eywaprotocol',
     },
     {
       alt: 'telegram',
       icon: '%=static=%img/assets/socials/telegram.svg',
-      href: '',
+      href: 'https://t.me/eywa_en',
     },
     {
       alt: 'twitter',
       icon: '%=static=%img/assets/socials/twitter.svg',
-      href: '',
+      href: 'https://twitter.com/eywaprotocol',
     },
     {
       alt: 'youtube',
       icon: '%=static=%img/assets/socials/youtube.svg',
-      href: '',
+      href: 'https://www.youtube.com/channel/UCIbOrJC1owkE2ux1N8EBrmg',
     },
   ],
   headerList: [
     {
       alt: 'github',
       icon: '%=static=%img/assets/socials/github.svg',
-      href: '',
+      href: 'https://github.com/eywa-protocol',
     },
     {
       alt: 'telegram',
       icon: '%=static=%img/assets/socials/telegram.svg',
-      href: '',
+      href: 'https://t.me/eywa_en',
     },
     {
       alt: 'twitter',
       icon: '%=static=%img/assets/socials/twitter.svg',
-      href: '',
+      href: 'https://twitter.com/eywaprotocol',
     },
   ],
   headerShortList: [
     {
       alt: 'telegram',
       icon: '%=static=%img/assets/socials/telegram.svg',
-      href: '',
+      href: 'https://t.me/eywa_en',
     },
   ]
 }};
