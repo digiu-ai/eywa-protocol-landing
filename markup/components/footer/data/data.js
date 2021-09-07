@@ -5,15 +5,11 @@ var data = {footer: {
       href: '',
     },
     {
-      label: 'App',
+      label: 'EYWA AMM DEX',
       href: '',
     },
     {
-      label: 'Team',
-      href: '',
-    },
-    {
-      label: 'Buy Eywa',
+      label: 'DigiU Lab',
       href: '',
     },
     {
@@ -25,15 +21,7 @@ var data = {footer: {
       href: '',
     },
     {
-      label: 'Roadmap',
-      href: '',
-    },
-    {
-      label: 'Roadmap',
-      href: '',
-    },
-    {
-      label: 'Medium',
+      label: 'GitHub',
       href: '',
     },
     {
