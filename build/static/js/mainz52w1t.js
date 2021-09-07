@@ -4,6 +4,10 @@
 
 
 
+
+
+
+
 const header = document.getElementById('header');
 const scrolledCheck = () => {
     const scrollY = window.scrollY;
@@ -20,8 +24,6 @@ document.addEventListener('DOMContentLoaded', () => {
 document.onscroll = () => {
     scrolledCheck();
 };
-
-
 
 const menuButton = document.getElementById('mobile-menu-button');
 menuButton.onclick = () => {

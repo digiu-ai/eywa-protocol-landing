@@ -201,6 +201,22 @@ body._is-modal-open {
 .page__footer {
   background: url("../img/general/background.svg");
 }
+@media screen and (max-width: 720px) {
+  .page__footer__main {
+    background: url("../img/general/background-mobile.svg");
+    background-size: cover;
+  }
+}
+.anchor {
+  visibility: hidden;
+  position: relative;
+  top: -130px;
+}
+@media screen and (max-width: 1760px) {
+  .anchor {
+    top: -78px;
+  }
+}
 .basics {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -215,7 +231,7 @@ body._is-modal-open {
   margin: 0 auto 160px;
 }
 .basics__title {
-  font-weight: 500;
+  font-weight: normal;
   font-size: 48px;
   line-height: 64px;
   color: #0ccfac;
@@ -247,7 +263,7 @@ body._is-modal-open {
   color: #0ccfac;
 }
 .basics__subtitle {
-  font-weight: 500;
+  font-weight: normal;
   font-size: 24px;
   line-height: 34px;
   margin-bottom: 64px;
@@ -370,17 +386,6 @@ body._is-modal-open {
     text-align: center;
   }
 }
-.content__main {
-  background: url("../img/general/background.svg");
-}
-.content__colored-bg {
-  background: #fafcff;
-  padding: 100px 0;
-}
-.content__gradient-bg {
-  padding: 96px 0;
-  background: url("../img/general/gradient-bg.png") no-repeat;
-}
 .button {
   font-family: Rubik;
   font-style: normal;
@@ -421,6 +426,23 @@ body._is-modal-open {
     height: 40px;
   }
 }
+.content__main {
+  background: url("../img/general/background.svg");
+}
+.content__colored-bg {
+  background: #fafcff;
+  padding: 64px 0;
+}
+.content__gradient-bg {
+  padding: 96px 0;
+  background: url("../img/general/gradient-bg.png") no-repeat;
+}
+@media screen and (max-width: 720px) {
+  .content__main {
+    background: url("../img/general/background-mobile.svg");
+    background-size: cover;
+  }
+}
 .footer {
   padding: 56px 80px;
   width: calc(100% - 160px);
@@ -443,24 +465,26 @@ body._is-modal-open {
   font-size: 16px;
   line-height: 24px;
   margin-bottom: 8px;
+  color: #373747;
 }
 .footer__logo-sub-text {
   font-weight: normal;
   font-size: 14px;
   line-height: 32px;
-  color: #818ea7;
+  color: #959ebd;
   margin-bottom: 8px;
 }
 .footer__links {
   display: grid;
   grid-auto-flow: column;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
   grid-gap: 16px 130px;
 }
 .footer__link {
   font-size: 16px;
   line-height: 32px;
+  color: #373747;
 }
 @media screen and (max-width: 1760px) {
   .footer {
@@ -569,7 +593,7 @@ body._is-modal-open {
   margin-bottom: 160px;
 }
 .join__title {
-  font-weight: 500;
+  font-weight: normal;
   font-size: 48px;
   line-height: 64px;
   color: #0ccfac;
@@ -716,6 +740,8 @@ body._is-modal-open {
   }
   .section__text {
     margin-bottom: 16px;
+    -ms-flex-item-align: start;
+        align-self: flex-start;
   }
   .section__text {
     margin-bottom: 64px;
@@ -922,7 +948,7 @@ body._is-modal-open {
   margin-bottom: 160px;
 }
 .news__title {
-  font-weight: 500;
+  font-weight: normal;
   font-size: 48px;
   line-height: 64px;
   color: #0ccfac;
@@ -1024,12 +1050,12 @@ body._is-modal-open {
     height: 4px;
   }
   .news__content::-webkit-scrollbar-track {
-    background: #818ea7;
+    background: #0ccfac;
     border-radius: 20px;
   }
   .news__content::-webkit-scrollbar-thumb {
     border-radius: 20px;
-    background: #0ccfac;
+    background: #fff;
   }
   .news__item {
     margin-right: 16px;
@@ -1055,7 +1081,6 @@ body._is-modal-open {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-bottom: 90px;
 }
 .partners__title {
   font-weight: 500;
@@ -1063,6 +1088,7 @@ body._is-modal-open {
   line-height: 20px;
   color: #373747;
   text-transform: uppercase;
+  letter-spacing: 2px;
   margin-bottom: 70px;
 }
 .partners__items {
@@ -1114,6 +1140,7 @@ body._is-modal-open {
   line-height: 20px;
   color: #373747;
   text-transform: uppercase;
+  letter-spacing: 2px;
   text-align: center;
   margin-bottom: 120px;
 }
@@ -1162,9 +1189,9 @@ body._is-modal-open {
   margin-left: 4px;
 }
 .roadmap__item-text {
-  font-weight: 500;
   font-size: 16px;
   line-height: 24px;
+  font-weight: normal;
 }
 .roadmap__empty {
   margin-bottom: 40px;
@@ -1227,12 +1254,12 @@ body._is-modal-open {
     height: 4px;
   }
   .roadmap__content::-webkit-scrollbar-track {
-    background: #818ea7;
+    background: #0ccfac;
     border-radius: 20px;
   }
   .roadmap__content::-webkit-scrollbar-thumb {
     border-radius: 20px;
-    background: #0ccfac;
+    background: #fff;
   }
   .roadmap__content-inner {
     width: 1688px;
@@ -1280,7 +1307,7 @@ body._is-modal-open {
     min-width: 245px;
   }
   .roadmap__item-text {
-    font-size: 12px;
+    font-size: 14px;
     line-height: 20px;
   }
   .roadmap__horizontal-line {
@@ -1310,6 +1337,7 @@ body._is-modal-open {
   font-size: 16px;
   line-height: 32px;
   margin-bottom: 16px;
+  color: #373747;
 }
 .subscribe__form {
   display: -webkit-box;
@@ -1317,7 +1345,7 @@ body._is-modal-open {
   display: flex;
 }
 .subscribe__input {
-  border: 1px solid #818ea7;
+  border: 1px solid #959ebd;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   border-radius: 3px;
@@ -1328,7 +1356,7 @@ body._is-modal-open {
       -ms-flex-positive: 1;
           flex-grow: 1;
   z-index: 1;
-  color: #000;
+  color: #373747;
 }
 .subscribe__input::-webkit-input-placeholder {
   font-family: Rubik;
@@ -1553,7 +1581,7 @@ body._is-modal-open {
   height: calc(100vh - 114px - 130px);
 }
 .welcome__title {
-  font-weight: 500;
+  font-weight: normal;
   font-size: 88px;
   line-height: 72px;
   color: #373747;
@@ -1585,7 +1613,7 @@ body._is-modal-open {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 620px;
+  width: 650px;
 }
 .welcome__button {
   margin-right: 18px;
@@ -1621,7 +1649,7 @@ body._is-modal-open {
 @media screen and (max-width: 1280px) {
   .welcome {
     margin: 0 auto;
-    height: calc(100vh - 77px - 40px - 160px);
+    height: calc(100vh - 78px - 40px - 160px);
     padding-top: calc(40px + 78px + 160px);
   }
   .welcome__title {
@@ -1650,7 +1678,8 @@ body._is-modal-open {
 }
 @media screen and (max-width: 720px) {
   .welcome {
-    padding: calc(40px + 78px + 160px) 16px 0;
+    padding: calc(40px + 78px + 130px) 16px 0;
+    height: calc(100vh - 78px - 40px - 130px);
   }
   .welcome__title {
     font-size: 24px;
