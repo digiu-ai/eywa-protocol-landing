@@ -1,5 +1,7 @@
+include ../anchor/anchor.pug
 mixin news(data)
-    .news#news
+    .news
+        +anchor('news')
         .news__title News
         .news__content
             each val in news.list
