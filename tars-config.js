@@ -47,7 +47,7 @@ module.exports = {
     "generateStaticPath": true,
     "devPath": "./dev/",
     "buildPath": "./builds/",
-    "useBuildVersioning": true,
+    "useBuildVersioning": false,
     "useArchiver": true,
     "ulimit": 4096,
     "templater": "pug",

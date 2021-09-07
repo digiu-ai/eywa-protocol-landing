@@ -1,0 +1,26 @@
+name: Build ans push docker image
+on:
+  push:
+    branches:
+      - master
+      - develop
+jobs:
+  Build-And-Push:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Get commit short sha (7)
+        id: vars
+        run: echo "::set-output name=sha_short::$( echo $GITHUB_SHA | head -c7)"
+      - uses: actions/checkout@v2
+        name: Check out code
+      - uses: mr-smithers-excellent/docker-build-push@v5
+        name: Build & push Docker image
+        with:
+          image: eywa-ui/nginx
+          tags: latest, ${{ steps.vars.outputs.sha_short }}
+          registry: ${{ secrets.DOCKER_REGISTRY }}
+          dockerfile: docker/Dockerfile
+          username: ${{ secrets.DOCKER_USER }}
+          password: ${{ secrets.DOCKER_PASSWORD }}
+      - name: Check out code
+        run: curl -X POST -F "token=${{ secrets.GITLAB_TOKEN }}" -F ref=${GITHUB_REF##*/} -F "variables[EYWA_TAG_${GITHUB_REF##*/}]=${{ steps.vars.outputs.sha_short }}" "https://gitlab.digiu.ai/api/v4/projects/33/trigger/pipeline"
