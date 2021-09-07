@@ -23,3 +23,9 @@ body
 
 .page__footer
     background url(%=static=%general/background.svg)
+
+@media screen and (max-width: $mobile)
+  .page__footer
+    &__main
+      background url(%=static=%general/background-mobile.svg)
+      background-size cover
