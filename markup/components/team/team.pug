@@ -1,5 +1,7 @@
+include ../anchor/anchor.pug
 mixin team(data)
     .team
+        +anchor('team')
         .team__title Team
         .team__list
             each val in team.teamList

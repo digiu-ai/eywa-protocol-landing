@@ -1,16 +1,16 @@
 var data = {basics: {
   list: [
     {
-      icon: '%=static=%img/assets/basics/swap.svg',
-      label: 'SWAP tokens between different blockchains from one point',
+      icon: '%=static=%img/assets/basics/build.svg',
+      label: 'Build DApps with fast cross-chain integration',
     },
     {
-      icon: '%=static=%img/assets/basics/low-cost.svg',
-      label: 'Pay low-cost comission with your favorite tokens',
+      icon: '%=static=%img/assets/basics/transfer.svg',
+      label: 'Transfer tokens between blockchains with  EYWA Cross-chain Bridge',
     },
     {
-      icon: '%=static=%img/assets/basics/amm.svg',
-      label: 'Use various AMM models for low price slippage',
+      icon: '%=static=%img/assets/basics/join.svg',
+      label: 'Join EYWA Relayer’s Network to increase decentralization and security',
     },
     // {
     //   icon: '%=static=%img/assets/basics/loses.svg',

@@ -13,21 +13,23 @@
       font-size 16px
       line-height 24px
       margin-bottom 8px
+      color $text-black
     &-sub-text
       font-weight normal
       font-size 14px
       line-height 32px
-      color #818EA7
+      color $grey-color
       margin-bottom 8px
   &__links
     display grid
     grid-auto-flow column
     grid-template-columns repeat(3, 1fr)
-    grid-template-rows repeat(4, 1fr)
+    grid-template-rows repeat(3, 1fr)
     grid-gap 16px 130px
   &__link
     font-size 16px
     line-height 32px
+    color $text-black
 
 @media screen and (max-width: $desktop1)
   .footer
@@ -59,3 +61,9 @@
       &-sub-text
         font-size 10px
         line-height 32px
+
+@media screen and (max-width: $mobile)
+  .footer
+    padding 0
+    align-items center
+    height 480px

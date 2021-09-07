@@ -4,6 +4,9 @@ html, body
     height 100%
     font-family Rubik
 
+body
+    &._is-modal-open
+        overflow-y hidden
 
 .page
     // Стили для body
@@ -20,3 +23,9 @@ html, body
 
 .page__footer
     background url(%=static=%general/background.svg)
+
+@media screen and (max-width: $mobile)
+  .page__footer
+    &__main
+      background url(%=static=%general/background-mobile.svg)
+      background-size cover

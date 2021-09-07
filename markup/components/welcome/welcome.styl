@@ -1,23 +1,25 @@
 .welcome
   margin 0 auto
-  padding-top 160px
+  padding-top calc(320px)
   display flex
   flex-direction column
   align-items center
-  height calc(100vh - 114px - 160px)
+  height calc(100vh - 114px - 130px)
   &__title
-    font-weight bold
+    font-weight 500
     font-size 88px
     line-height 72px
-    color #3BC199
+    color $text-black
     margin-bottom 24px
+    & > span
+      color $main-green
   &__subtitle
     font-size 32px
     line-height 48px
     letter-spacing 1px
     margin-bottom 100px
     & > span
-      color #3BC199
+      color $main-green
   &__video
     margin-bottom 16px
   &__video-hint
@@ -28,7 +30,7 @@
     margin-bottom 56px
   &__buttons
     display flex
-    width: 620px
+    width: 650px
   &__button
     margin-right 18px
     flex 1 0
@@ -37,8 +39,9 @@
 
 @media screen and (max-width: $desktop1)
   .welcome
-    margin 120px auto 0
-    height calc(100vh - 93px - 120px - 160px)
+    margin 0 auto
+    height calc(100vh - 94px - 108px)
+    padding-top calc(108px + 94px)
     &__title
       font-size 64px
       line-height 72px
@@ -53,8 +56,9 @@
 
 @media screen and (max-width: $desktop2)
   .welcome
-    margin 40px auto 0
-    height calc(100vh - 77px - 40px - 160px)
+    margin 0 auto
+    height calc(100vh - 78px - 40px - 160px)
+    padding-top calc(40px + 78px + 160px)
     &__title
       font-size 40px
       line-height 56px
@@ -76,6 +80,8 @@
 
 @media screen and (max-width: $mobile)
   .welcome
+    padding calc(40px + 78px + 130px) 16px 0
+    height calc(100vh - 78px - 40px - 130px)
     &__title
       font-size 24px
       line-height 32px
@@ -84,6 +90,8 @@
       line-height 16px
     &__buttons
       flex-direction column
+      width 100%
+    &__video-hint
       width 290px
     &__button
       margin-right 0

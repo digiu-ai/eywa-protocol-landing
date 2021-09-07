@@ -1,5 +1,7 @@
+include ../anchor/anchor.pug
 mixin roadmap(data)
     .roadmap
+        +anchor('roadmap')
         .roadmap__title Roadmap
         .roadmap__content
             .roadmap__content-inner
@@ -8,8 +10,8 @@ mixin roadmap(data)
                 .roadmap__list
                     each val in roadmap.list
                         .roadmap__items
-                            .roadmap__vertical-line(style={height: 'calc(60px + 140px*'+ val.steps.length + ' - 90px - 15px)'})
-                            .roadmap__vertical-line._mobile(style={height: 'calc(60px + 110px*'+ val.steps.length + ' - 90px - 15px)'})
+                            .roadmap__vertical-line(style={height: 'calc(60px + 132px*'+ val.steps.length + ' - 90px - 15px)'})
+                            .roadmap__vertical-line._mobile(style={height: 'calc(60px + 104px*'+ val.steps.length + ' - 90px - 15px)'})
                             .roadmap__year #{val.year}
                             .roadmap__quartal #{val.title}
                             img(src='%=static=%img/assets/roadmap/unchecked.svg').roadmap__empty
@@ -18,5 +20,5 @@ mixin roadmap(data)
                                     if item.checked
                                         img(src='%=static=%img/assets/roadmap/checked.svg').roadmap__item-icon
                                     else
-                                        img(src='%=static=%img/assets/roadmap/void.svg').roadmap__item-icon
+                                        img(src='%=static=%img/assets/roadmap/void.svg').roadmap__item-icon._unchecked
                                     div(class=item.checked ? 'roadmap__item-text' : 'roadmap__item-text _unchecked') #{item.label}

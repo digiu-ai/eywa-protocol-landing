@@ -2,23 +2,19 @@ var data = {menu: {
   links: [
     {
       label: 'About',
-      href: '',
-    },
-    {
-      label: 'Technology',
-      href: '',
+      href: '#about',
     },
     {
       label: 'Community',
-      href: '',
+      href: '#community',
     },
     {
-      label: 'Github',
-      href: '',
+      label: 'News',
+      href: '#news',
     },
     {
-      label: 'Contacts',
-      href: '',
+      label: 'Roadmap',
+      href: '#roadmap',
     }
   ]
 }};

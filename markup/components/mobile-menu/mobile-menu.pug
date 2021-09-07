@@ -9,7 +9,7 @@ mixin mobile-menu(data)
             .mobile-menu__links
                 .mobile-menu__links-nav
                     each val in data
-                        a(href=val.href target='_blank').mobile-menu__item #{val.label}
+                        a(href=val.href target=val.isExternal ? '_blank' : '').mobile-menu__item #{val.label}
                 .mobile-menu__links-nav
                     +socials(socials.headerList)
             .mobile-menu__subscribe
