@@ -1,9 +1,10 @@
 include ../button/button.pug
 mixin welcome(data)
     .welcome
-        .welcome__title Cross-chain 
-            span Data Protocol
-        .welcome__subtitle Create new generation DeFi with us
-        .welcome__buttons
-            +button(welcome.mainButton)
-            +button(welcome.secondaryButton)
+        .welcome__inner
+            .welcome__title Cross-chain 
+                span Data Protocol
+            .welcome__subtitle Create new generation DeFi with us
+            .welcome__buttons
+                +button(welcome.mainButton)
+                +button(welcome.secondaryButton)
