@@ -16,7 +16,7 @@ jobs:
       - uses: mr-smithers-excellent/docker-build-push@v5
         name: Build & push Docker image
         with:
-          image: eywa-ui/nginx
+          image: eywa-protocol-landing/nginx
           tags: latest, ${{ steps.vars.outputs.sha_short }}
           registry: ${{ secrets.DOCKER_REGISTRY }}
           dockerfile: docker/Dockerfile
