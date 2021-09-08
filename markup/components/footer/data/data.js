@@ -14,10 +14,10 @@ var data = {footer: {
     //   label: 'DigiU Lab',
     //   href: '',
     // },
-    {
-      label: 'White Paper',
-      href: '',
-    },
+    // {
+    //   label: 'White Paper',
+    //   href: '',
+    // },
     {
       label: 'Docs',
       href: 'https://docs.eywa.fi/',
