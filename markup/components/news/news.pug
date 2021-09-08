@@ -10,4 +10,4 @@ mixin news(data)
                     .news__item-content 
                         .news__item-content-date #{val.date}
                         .news__item-content-text #{val.text}
-                        .news__item-content-more Read more
+                        a(href=val.href target='_blank').news__item-content-more Read more
