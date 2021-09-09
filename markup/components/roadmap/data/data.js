@@ -28,7 +28,7 @@ var data = {roadmap: {
       steps: [
         {
           checked: true,
-          label: 'EYWA DEX alpha in testnets: Ethereum Rinkeby, BSC, Polygon, HECO, Avalance, Solana crosschain pools and swaps.'
+          label: 'EYWA DEX alpha in testnets: Ethereum Rinkeby, BSC, Polygon, HECO, Avalanche, Solana crosschain pools and swaps.'
         },
         {
           checked: false,
