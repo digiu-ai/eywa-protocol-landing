@@ -40,7 +40,7 @@ var data = {footer: {
     },
     {
       label: 'Youtube',
-      href: 'https://www.youtube.com/channel/UCIbOrJC1owkE2ux1N8EBrmg',
+      href: 'https://www.youtube.com/channel/UCLXfBZ5uMes6Bdl7oBw40cQ',
       isExternal: true,
     },
   ]
