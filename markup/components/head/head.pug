@@ -14,7 +14,7 @@ mixin head(data)
     |<!--[if (gt IE 9)|!(IE)]><!--><link href="%=static=%css/main%=hash=%%=min=%.css" rel="stylesheet" type="text/css"><!--<![endif]-->
 
     if data.useSocialMetaTags
-        meta(property="og:title", content="#{data.title}")
+        meta(property="og:title", content=data.title)
         meta(property="og:title", content="")
         meta(property="og:url", content="")
         meta(property="og:description", content="")
