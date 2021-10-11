@@ -41,7 +41,7 @@ var data = {footer: {
     },
     {
       label: 'Youtube',
-      href: 'https://www.youtube.com/channel/UCLXfBZ5uMes6Bdl7oBw40cQ',
+      href: 'https://www.youtube.com/channel/UCDnOd4xwk6c-AVsDZ0Rm0Qg',
       isExternal: true,
     },
   ]

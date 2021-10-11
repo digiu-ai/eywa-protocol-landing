@@ -38,7 +38,7 @@ var data = {socials: {
     {
       alt: 'youtube',
       icon: '%=static=%img/assets/socials/youtube.svg',
-      href: 'https://www.youtube.com/channel/UCLXfBZ5uMes6Bdl7oBw40cQ',
+      href: 'https://www.youtube.com/channel/UCDnOd4xwk6c-AVsDZ0Rm0Qg',
     },
   ],
   headerList: [
