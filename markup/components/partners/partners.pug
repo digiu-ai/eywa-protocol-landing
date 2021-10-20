@@ -3,5 +3,5 @@ mixin partners(data)
         .partners__title PARTNERS
         .partners__items
             each val in partners.list
-                .partners__item
+                div(class="partners__item" + (val.isWhitebg ? " _white-bg" : "") + ' ' + val.size)
                     img(src=val.src alt=val.alt id=val.id).partners__item-icon

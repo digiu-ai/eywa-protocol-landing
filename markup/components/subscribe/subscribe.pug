@@ -2,6 +2,6 @@ include ../button/button.pug
 mixin subscribe(data)
     .subscribe
         .subscribe__title Subscribe to get our weekly updates
-        form.subscribe__form
+        form.subscribe__form#subscribe-form
             input.subscribe__input(type="text" placeholder='E-mail')
             +button(subscribe.button)
