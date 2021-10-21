@@ -1,14 +1,14 @@
 include ../subscribe/subscribe.pug
 
 mixin footer(data)
-    footer.footer
-        .footer__logo
+    footer.footer-proto
+        .footer-proto__logo
             img(src='%=static=%img/general/logo.svg')
-            .footer__logo-main-text Cross-chain Data Protocol
-            .footer__logo-sub-text Copyright 2021  EYWA.FI
-        .footer__links
+            .footer-proto__logo-main-text Cross-chain Data Protocol
+            .footer-proto__logo-sub-text Copyright 2021  EYWA.FI
+        .footer-proto__links
             each val in footer.defaultLinkList
-                a.footer__link(href=val.href target=val.isExternal ? '_blank' : '') #{val.label} 
-        .footer__subscribe
+                a.footer-proto__link(href=val.href target=val.isExternal ? '_blank' : '') #{val.label} 
+        .footer-proto__subscribe
             +subscribe()
             

@@ -5,12 +5,12 @@ var data = {partners: {
     src: '%=static=%img/assets/partners/digiu.svg',
     id: 'digiu'
     },
-    {
-    alt: 'john tiner',
-    src: '%=static=%img/assets/partners/john.png',
-    id: 'john-tiner',
-    size: '_xl'
-    },
+    // {
+    // alt: 'john tiner',
+    // src: '%=static=%img/assets/partners/john.png',
+    // id: 'john-tiner',
+    // size: '_xl'
+    // },
     {
     alt: 'br capital',
     src: '%=static=%img/assets/partners/br.svg',

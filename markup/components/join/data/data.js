@@ -3,6 +3,6 @@ var data = {join: {
     type: 'default',
     id: 'joinButton',
     title: 'Join',
-    class: 'join__button'
+    class: 'join-proto__button'
   }
 }};
