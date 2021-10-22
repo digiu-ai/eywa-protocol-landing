@@ -10,7 +10,7 @@ mixin roadmap(data)
                 .roadmap-proto__list
                     each val in roadmap.list
                         .roadmap-proto__items
-                            .roadmap-proto__vertical-line(style={height: 'calc(60px + 132px*'+ val.steps.length + ' - 90px - 15px)'})
+                            .roadmap-proto__vertical-line(style={height: 'calc(60px + 135px*'+ val.steps.length + ' - 90px - 15px)'})
                             .roadmap-proto__vertical-line._mobile(style={height: 'calc(60px + 104px*'+ val.steps.length + ' - 90px - 15px)'})
                             .roadmap-proto__year #{val.year}
                             .roadmap-proto__quartal #{val.title}
