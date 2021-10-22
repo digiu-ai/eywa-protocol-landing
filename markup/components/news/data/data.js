@@ -1,6 +1,18 @@
 var data = {news: {
   list: [
     {
+      img: '%=static=%img/assets/news/eywa-cross-chain.png',
+      date: '23 september',
+      text: 'EYWA Cross-Chain: The project that will solve most DeFi problems',
+      href: 'https://freeton.house/en/eywa-cross-chain-the-project-that-will-solve-most-defi-problems/',
+    },
+    {
+      img: '%=static=%img/assets/news/cointelegraph.jpg',
+      date: '21 september',
+      text: 'The EYWA cross-chain interoperability platform has launched its alpha test',
+      href: 'https://cointelegraph.com/press-releases/the-eywa-cross-chain-interoperability-platform-has-launched-its-alpha-test',
+    },
+    {
       img: '%=static=%img/assets/news/preparing.png',
       date: '7 september',
       text: 'EYWA Cross-chain prepares the DeFi Revolution.',

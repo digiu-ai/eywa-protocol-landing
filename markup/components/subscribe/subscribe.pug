@@ -1,7 +1,7 @@
 include ../button/button.pug
 mixin subscribe(data)
-    .subscribe
-        .subscribe__title Subscribe to get our weekly updates
-        form.subscribe__form
-            input.subscribe__input(type="text" placeholder='E-mail')
+    .subscribe-proto
+        .subscribe-proto__title Subscribe to get our weekly updates
+        form.subscribe-proto__form#subscribe-form
+            input.subscribe-proto__input(type="text" placeholder='E-mail')
             +button(subscribe.button)

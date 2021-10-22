@@ -2,15 +2,15 @@ include ../socials/socials.pug
 include ../button/button.pug
 include ../anchor/anchor.pug
 mixin join(data)
-    .join
+    .join-proto
         +anchor('community')
-        .join__title Join EYWA
-        .join__content 
-            .join__section.section
-                .section__title Community
-                .section__text Learn more about EYWA, chat with the team, and become the part of our growing community.
+        .join-proto__title Join EYWA
+        .join-proto__content 
+            .join-proto__section.section-proto
+                .section-proto__title Community
+                .section-proto__text Learn more about EYWA, chat with the team, and become the part of our growing community.
                 +socials(socials.defaultList)
-            .join__section.section._with-logo
-                .section__title EYWA alpha testing challenge
-                .section__text Take part in EYWA alpha test, complete simple tasks, earn points and get unique NFTs. 
+            .join-proto__section.section-proto._with-logo
+                .section-proto__title EYWA alpha testing challenge
+                .section-proto__text Take part in EYWA alpha test, complete simple tasks, earn points and get unique NFTs. 
                 +button(join.joinButton)

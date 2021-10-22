@@ -6,19 +6,19 @@ var data = {roadmap: {
       steps: [
         {
           checked: true,
-          label: 'Create blockchain laboratory DigiU.lab, starting research.'
+          label: 'Creation of the DigiU.lab blockchain lab and the start of research.'
         },
         {
           checked: true,
-          label: 'EthGlobal Marketmake Win, prise Chainlink proof of concept.'
+          label: 'EthGlobal Marketmake, a prize from Chainlink - proof of concept.'
         },
         {
           checked: true,
-          label: 'Chainlink Spring 2021 - MVP : Crosschain AMM DEX  (Ethereum Rinkeby <> Binance Smart Chain testnet)'
+          label: 'Chainlink Spring 2021 - MVP: Cross-chain AMM DEX (Ethereum Rinkeby <> Binance Smart Chain test networks)'
         },
         {
           checked: true,
-          label: 'Building the Team, development product.'
+          label: 'Building the team, product development.'
         },
       ]
     },
@@ -28,19 +28,19 @@ var data = {roadmap: {
       steps: [
         {
           checked: true,
-          label: 'EYWA DEX alpha in testnets: Ethereum Rinkeby, BSC, Polygon, HECO, Avalanche, Solana crosschain pools and swaps.'
+          label: 'EYWA DEX alpha testing: Ethereum Rinkeby, BSC, Polygon, HECO, Avalanche, Solana, cross-chain pools and exchanges.'
         },
         {
           checked: false,
-          label: 'EYWA Relayers Network open testnet:multichain gasless, DPoS network with slashing.'
+          label: 'Start of community development of EYWA DEX users and developers who use EYWA Cross-chain Data Protocol.'
         },
         {
           checked: false,
-          label: 'Starting to build a community of EYWA DEX users and developers community using EYWA Crosschain Data Protocol.'
+          label: 'Private and public funding rounds.'
         },
         {
           checked: false,
-          label: 'Funding round (private).'
+          label: ' First EYWA hackathon.'
         },
       ]
     },
@@ -50,19 +50,27 @@ var data = {roadmap: {
       steps: [
         {
           checked: false,
-          label: 'Beta in mainnet: launch EYWA DEX with user’s subsidy and gasless.  Light setup for Relayers Network, quantity up to 500 relayers.'
+          label: 'Open testing of EYWA Relayers Network Roll-DPoS with slashing.'
         },
         {
           checked: false,
-          label: 'Funding rounds (Private, Community Sale), TGE and launch crosschain yield farming.'
+          label: 'Beta version in the main network: EYWA Cross-chain DEX launch with Uniswap, Curve AMM pools and gasless transactions.'
         },
         {
           checked: false,
-          label: 'Grow community and business development: adding more pools, assets and opportunites for users.'
+          label: 'Token Generation Event and cross-chain farming launch.'
         },
         {
           checked: false,
-          label: 'Adding new chains: Polkadot, FreeTON and more EVM chains.'
+          label: 'Easy installation of EYWA Relayer Network nodes, expanding the network to 500 nodes.'
+        },
+        {
+          checked: false,
+          label: 'Community growth and business development: adding more pools, assets and opportunities for users.'
+        },
+        {
+          checked: false,
+          label: 'Adding new blockchains: Polkadot, Cardano, FreeTON, and EVM-based blockchains.'
         },
       ]
     },
@@ -72,15 +80,15 @@ var data = {roadmap: {
       steps: [
         {
           checked: false,
-          label: 'NFT crosschain bridge, NFT crosschain marketplace.'
+          label: 'NFT Crosschain bridge, NFT crosschain trading platform.'
         },
         {
           checked: false,
-          label: 'Adding new chains: Cosmos, Terra and more EVM chains.'
+          label: 'Adding new blockchains: Cosmos, Terra and other EVM-based blockchains.'
         },
         {
           checked: false,
-          label: 'Relayers Network 2.0: up to 1000 relayers and more, full DeFi oracles functional (price feeds, random number generators, etc).'
+          label: 'EYWA Relayers Network 2.0: expanding the network to 1000 and more relayers, full DeFi oracle functionality (price data, random number generators, etc.)'
         },
       ]
     }
