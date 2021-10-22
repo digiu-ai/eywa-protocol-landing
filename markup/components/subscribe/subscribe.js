@@ -1,5 +1,5 @@
 
-const subscribeForms = document.getElementsByClassName('subscribe__form');
+const subscribeForms = document.getElementsByClassName('subscribe-proto__form');
 
 for (let i = 0; i < subscribeForms.length; i++) {
     subscribeForms[i].onsubmit = (e) => {

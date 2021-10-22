@@ -15,6 +15,6 @@ rsquadLogo.onclick = () => {
 truevcLogo.onclick = () => {
     window.open('https://truevc.io/');
 };
-johnLogo.onclick = () => {
-    window.open('https://tiner.ch/');
-};
+// johnLogo.onclick = () => {
+//     window.open('https://tiner.ch/');
+// };
