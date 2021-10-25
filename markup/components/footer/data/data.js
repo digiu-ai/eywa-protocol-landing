@@ -36,7 +36,7 @@ var data = {footer: {
     },
     {
       label: 'Telegram',
-      href: 'https://t.me/eywa_en',
+      href: 'https://t.me/EYWA_protocol_bot',
       isExternal: true,
     },
     {

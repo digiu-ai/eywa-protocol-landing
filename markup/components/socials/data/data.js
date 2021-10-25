@@ -28,7 +28,7 @@ var data = {socials: {
     {
       alt: 'telegram',
       icon: '%=static=%img/assets/socials/telegram.svg',
-      href: 'https://t.me/eywa_en',
+      href: 'https://t.me/EYWA_protocol_bot',
     },
     {
       alt: 'twitter',
@@ -50,7 +50,7 @@ var data = {socials: {
     {
       alt: 'telegram',
       icon: '%=static=%img/assets/socials/telegram.svg',
-      href: 'https://t.me/eywa_en',
+      href: 'https://t.me/EYWA_protocol_bot',
     },
     {
       alt: 'twitter',
@@ -62,7 +62,7 @@ var data = {socials: {
     {
       alt: 'telegram',
       icon: '%=static=%img/assets/socials/telegram.svg',
-      href: 'https://t.me/eywa_en',
+      href: 'https://t.me/EYWA_protocol_bot',
     },
   ]
 }};
