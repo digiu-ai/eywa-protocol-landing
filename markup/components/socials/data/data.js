@@ -39,7 +39,7 @@ var data = {socials: {
     {
       alt: 'linkedin',
       icon: '%=static=%img/assets/socials/linkedin.svg',
-      href: '',
+      href: 'https://www.linkedin.com/company/eywa-protocol',
     },
   ],
   headerList: [
