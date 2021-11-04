@@ -6,17 +6,18 @@ var data = {footer: {
       isExternal: true,
     },
     {
-      label: 'EYWA AMM DEX',
-      href: 'https://alpha.eywa.fi',
+      label: 'Open App',
+      href: 'https://alpha.eywa.fi/',
       isExternal: true,
     },
-    // {
-    //   label: 'DigiU Lab',
-    //   href: '',
-    // },
     {
       label: 'White Paper(RU)',
       href: 'https://eywa.fi/EYWA_whitepaper_ru.pdf',
+      isExternal: true,
+    },
+    {
+      label: 'White Paper(EN)',
+      href: 'https://eywa.fi/EYWA_whitepaper_en.pdf',
       isExternal: true,
     },
     {
@@ -25,10 +26,30 @@ var data = {footer: {
       isExternal: true,
     },
     {
+      label: 'Roadmap',
+      href: '#roadmap',
+      isExternal: false,
+    },
+    {
       label: 'GitHub',
       href: 'https://github.com/eywa-protocol',
       isExternal: true,
     },
+    {
+      label: 'Medium',
+      href: 'https://medium.com/@eywaprotocol',
+      isExternal: true,
+    },
+    // {
+    //   label: 'EYWA AMM DEX',
+    //   href: 'https://alpha.eywa.fi',
+    //   isExternal: true,
+    // },
+    // {
+    //   label: 'DigiU Lab',
+    //   href: '',
+    // },
+    
     {
       label: 'Twitter',
       href: 'https://twitter.com/eywaprotocol',
